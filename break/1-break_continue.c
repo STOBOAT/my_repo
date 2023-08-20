@@ -13,9 +13,12 @@ int main(void)
 	while (i < 10)
 	{
 		if (i == 2 || i == 4)
+		{
 			i++;
-		printf("%d", i);
 		continue;
+		}
+		printf("%d\n", i);
+		i++;
 	}
 	return (0);
 }
